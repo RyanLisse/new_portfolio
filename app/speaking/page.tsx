@@ -18,72 +18,35 @@ interface Talk {
 
 const talksAndPresentations: Talk[] = [
   {
-    title: "Behind the Scenes of Tailwind CSS",
+    title: "Building AI-Powered Trading Bots",
     description:
-      "Ever peeked into Tailwind's source code? You'll see exactly how thousands of utility classes get generated, the purging techniques that scan your templates to slash bundle sizes, and how JIT compilation delivers unlimited arbitrary values without tanking performance.",
-    event: "Stir Trek 2025",
-    url: "https://youtu.be/qx_t3uae1o4?si=uvU6dITj1UjbBELf",
+      "Explore the intersection of AI and cryptocurrency trading. Learn how to build intelligent trading bots that can discover patterns and execute automated strategies on crypto exchanges.",
+    event: "Available for speaking",
   },
   {
-    title: "What's New in Tailwind CSS v4?",
+    title: "Web3 and Blockchain: A Practical Introduction",
     description:
-      "Tailwind CSS v4 brings numerous enhancements to the developer experience. In this session, we'll explore the key changes and new features to help you prepare for the official release of v4.",
-    event: "Commit Your Code Conference",
-    url: "https://www.youtube.com/live/Ils_dA_fHmY?si=Jk-2MDczcxbE95La&t=15711",
+      "Demystify blockchain technology and Web3 development. From smart contracts to decentralized applications, learn how these technologies are reshaping the internet.",
+    event: "Available for speaking",
   },
   {
-    title: "The Power of a Second Brain in a Developer's Workflow",
+    title: "From Music to Code: A 20-Year Journey in Tech",
     description:
-      "Instead of using AI to solve a problem and forgetting the solution moments later, use a Second Brain to enhance memory retention and discover related information in context of your past experiences. ",
-    event: "C3 Dev Fest",
-    url: "https://gitnation.com/contents/the-power-of-a-second-brain-in-a-developers-workflow",
+      "A personal story of transitioning from the music and entertainment industry to becoming a full-stack developer. Lessons learned, challenges overcome, and insights gained.",
+    event: "Available for speaking",
   },
   {
-    title: "Choosing Blog Topics and Boosting Content with SEO",
+    title: "Full-Stack Development in the Modern Era",
     description:
-      "Learn the art of selecting high-traffic article topics and mastering effective writing and formatting techniques to maximize engagement and readership.",
-    event: "THAT Conference",
-    url: "https://www.youtube.com/watch?v=VS01DHSnGV0&t",
-  },
-  {
-    title: "The Nest Big Thing in CSS: An Introduction to Native Class Nesting",
-    description:
-      "Let's explore native class nesting in CSS! We'll cover the fundamentals of nesting, its benefits, and browser support.",
-    event: "Dallas Software Developer Meetup",
-    url: "https://www.youtube.com/watch?v=4lNEn9bY-GE",
-  },
-  {
-    title:
-      "Reactivity Without the Headache - An Introduction to Angular Signals",
-    description:
-      "Learn how Angular Signals introduce a new reactive way to track state across your application. We'll refactor real code to use this new reactive pattern to simplify and minimize the codebase.",
-    event: "Lunch & Learn",
-  },
-  {
-    title: "Application Confidence - An Introduction to Testing React",
-    description:
-      "An introducing to testing React Applications with the React Testing Library!",
-    event: "Dallas Software Developer Meetup",
-  },
-  {
-    title: "Live Link Previews with Next.js",
-    description:
-      "Learn how to display a preview of an externally linked site in your Next.js application!",
-    event: "Dallas Software Developer Meetup",
-  },
-  {
-    title: "FullStack <development /> Chat",
-    description:
-      "I was invited by a Shashi Lo to be a speaker on his Twitter Space discussing Fullstack development.",
-    event: "Twitter Space",
-    url: "https://x.com/shashiwhocodes/status/1620965070183305216",
+      "Navigate the current landscape of full-stack development. Best practices, emerging technologies, and how to stay relevant in an ever-changing field.",
+    event: "Available for speaking",
   },
 ];
 
 export default function SpeakingPage() {
   return (
     <div className="relative">
-      <title>Speaking | Braydon Coyer</title>
+      <title>Speaking | Ryan Lisse</title>
       <div className="relative space-y-16">
         <GridWrapper>
           <h1 className="max-w-3/5 mx-auto mt-16 text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]">
@@ -215,24 +178,26 @@ export default function SpeakingPage() {
                     <TabPanels className="mt-8">
                       <TabPanel id="first-person">
                         <p className="text-base leading-7 text-text-secondary">
-                          I am Braydon Coyer, a Senior Frontend Engineer at
-                          LogicGate, where I play a key role in developing an
-                          automated Governance, Risk, and Compliance (GRC)
-                          platform. As a creative developer, blogger, and
-                          designer, I enjoy tinkering and sharing my projects
-                          with the public. I live in Texas with my wife and two
-                          daughters.
+                          I am Ryan Lisse, a Software Consultant at Salt, where
+                          I help companies navigate complex technical challenges.
+                          With over 20 years of experience in the music and
+                          entertainment scene, I bring a unique creative
+                          perspective to full-stack development. I specialize in
+                          blockchain, Web3, and AI technologies, and I'm
+                          passionate about building decentralized applications.
+                          I live in Amsterdam with my two children and a dog.
                         </p>
                       </TabPanel>
                       <TabPanel id="third-person">
                         <p className="text-base leading-7 text-text-secondary">
-                          Braydon Coyer is a Senior Frontend Engineer at
-                          LogicGate, where he plays a key role in developing an
-                          automated Governance, Risk, and Compliance (GRC)
-                          platform. As a creative developer, blogger, and
-                          designer, he enjoys tinkering and sharing his projects
-                          with the public. Braydon lives in Texas with his wife
-                          and two daughters.
+                          Ryan Lisse is a Software Consultant at Salt, where he
+                          helps companies navigate complex technical challenges.
+                          With over 20 years of experience in the music and
+                          entertainment scene, he brings a unique creative
+                          perspective to full-stack development. Ryan specializes
+                          in blockchain, Web3, and AI technologies, and is
+                          passionate about building decentralized applications.
+                          He lives in Amsterdam with his two children and a dog.
                         </p>
                       </TabPanel>
                     </TabPanels>

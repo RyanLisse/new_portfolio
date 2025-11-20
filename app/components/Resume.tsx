@@ -4,60 +4,44 @@ import { Timeline } from "./Timeline";
 const resumeData: ResumeData = {
   experiences: [
     {
-      company: "LogicGate",
-      period: "2022 - Present",
+      company: "Salt",
+      period: "2020 - Present",
       positions: [
         {
-          title: "Frontend Developer III",
+          title: "Software Consultant",
           description: [
-            "I lead feature development on a team by analyzing requirements, designing solutions, and assist in evolving the frontend chapter of our organization.",
-          ],
-        },
-        {
-          title: "Frontend Developer II",
-          description: [
-            "I joined LogicGate and immediately took charge of feature development on my team while also assisting other frontend developers in the organization.",
+            "I provide expert software consulting services, helping companies navigate complex technical challenges and implement modern solutions.",
+            "I specialize in full-stack development, blockchain technologies, Web3 applications, and AI-powered systems.",
+            "I architect and develop scalable solutions using cutting-edge technologies including React, Angular, Python, and various blockchain platforms.",
           ],
         },
       ],
     },
     {
-      company: "Cognizant",
-      period: "2019 - 2021",
+      company: "Independent Developer & Tech Entrepreneur",
+      period: "2005 - Present",
       positions: [
         {
-          title: "Senior Fullstack Developer",
+          title: "Full-Stack Developer & Creator",
           description: [
-            "I designed and developed full-stack RESTful microservices using Netflix OSS, Java, Spring Boot, SQL, Angular, React, and Vue.",
-            "I led development teams, utilizing extreme programming principles such as agile, test-driven development, and paired programming.",
-            "I spearheaded the information architecture and developed a reusable UI component library for healthcare clients.",
-            "I led over 650 developers through a monthly enablement process, training them for client work on the Digital Engineering stack.",
+            "I've built various innovative projects including AI-powered cryptocurrency trading bots, MCP servers, and decentralized applications.",
+            "I developed mexc-sniper-bot, an AI-powered cryptocurrency trading bot for MEXC exchange with pattern discovery and automated sniping capabilities.",
+            "I contribute actively to the open-source community with projects like lancedb_mcp, sleepcatch, and various TypeScript/Python applications.",
+            "I combine my creative background in music and entertainment with technical expertise to build unique, user-focused applications.",
           ],
         },
       ],
     },
     {
-      company: "projekt202",
-      period: "2018 - 2019",
+      company: "Music & Entertainment Industry",
+      period: "2000 - 2020",
       positions: [
         {
-          title: "UI Developer",
+          title: "Creative & Marketing Professional",
           description: [
-            "I assisted in developing a reusable UI component library and worked closely with a multi-million dollar airline client to gather requirements.",
-            "My responsibility included developing solutions for enterprise clients worth millions of dollars, using Angular 7 for the frontend.",
-          ],
-        },
-      ],
-    },
-    {
-      company: "Major 4 Apps",
-      period: "2018 - 2019",
-      positions: [
-        {
-          title: "Founder & Developer",
-          description: [
-            "I developed custom applications for clients, designed, developed, tested, and supported mobile applications on iOS and Android platforms.",
-            "My mobile game ranked among the top 200 on the Amazon App Store.",
+            "I spent over 20 years in the music and entertainment scene, working as a creative and marketer.",
+            "I bridged the gap between creative vision and technical execution, using technology to enhance entertainment experiences.",
+            "I developed marketing strategies and creative campaigns for various entertainment projects and artists.",
           ],
         },
       ],

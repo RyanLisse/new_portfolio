@@ -37,7 +37,7 @@ export default async function Home() {
                 delay={HEADING_DELAY}
                 className="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]"
               >
-                Hey, I&apos;m Braydon! <br /> Welcome to my corner of the
+                Hey, I&apos;m Ryan! <br /> Welcome to my corner of the
                 internet!
               </AnimatedText>
             </GridWrapper>
@@ -48,10 +48,10 @@ export default async function Home() {
                   delay={PARAGRAPH_DELAY}
                   className="leading-8 text-text-secondary"
                 >
-                  I&apos;m a front-end developer with a love for design and a
-                  knack for tinkering. This site is intentionally
-                  over-engineered and serves as my playground for experimenting
-                  with new ideas and seeing what sticks!
+                  I&apos;m a creative, marketer, and full-stack web developer with
+                  20+ years of experience in the music and entertainment scene.
+                  Currently working as a Software Consultant at Salt, passionate
+                  about blockchain, Web3, and AI technologies!
                 </AnimatedText>
               </div>
             </GridWrapper>

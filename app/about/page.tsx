@@ -18,7 +18,7 @@ export default function AboutPage() {
 
   return (
     <div className="relative mt-14">
-      <title>About | Braydon Coyer</title>
+      <title>About | Ryan Lisse</title>
       <div className="relative space-y-10 md:space-y-16">
         {/* Title */}
         <GridWrapper className="space-y-12">
@@ -28,7 +28,7 @@ export default function AboutPage() {
                 <span>{timeOfDayGreeting}</span>
               </div>
               <h1 className="mx-auto max-w-2xl text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-5xl lg:text-left lg:text-6xl lg:leading-[64px]">
-                I&apos;m Braydon, a creative frontend engineer.
+                I&apos;m Ryan, a creative full-stack developer.
               </h1>
             </div>
             <div className="order-1 my-12 flex-shrink-0 lg:order-2 lg:my-0">
@@ -39,7 +39,7 @@ export default function AboutPage() {
                       width={140}
                       height={140}
                       src="/braydon_speaking_photo.jpeg"
-                      alt="Braydon Coyer"
+                      alt="Ryan Lisse"
                       direction="left"
                     />
                   </div>
@@ -48,7 +48,7 @@ export default function AboutPage() {
                       width={140}
                       height={140}
                       src="/braydon_headshot_1.jpeg"
-                      alt="Braydon Coyer"
+                      alt="Ryan Lisse"
                       direction="right"
                     />
                   </div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
                       width={140}
                       height={140}
                       src="/braydon_headshot_3.jpg"
-                      alt="Braydon Coyer"
+                      alt="Ryan Lisse"
                       direction="left"
                     />
                   </div>
@@ -104,15 +104,15 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  My programming origins
+                  My journey into tech
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When Apple unveiled the first iPad with its beautiful 1024x768
-                  display, I knew I had to create for it. I taught myself mobile
-                  development while freelancing, and soon I was shipping iOS and
-                  Android apps. One of my games even climbed above Angry Birds
-                  in the charts for a while—which still makes me smile when I
-                  think about it.
+                  Born in Amsterdam with roots from Suriname, I&apos;ve spent over
+                  20 years immersed in the music and entertainment scene. What
+                  started as a passion for creative expression evolved into a
+                  career blending marketing, technology, and innovation. I&apos;ve
+                  always been fascinated by how technology can transform creative
+                  industries and bring people together.
                 </p>
               </div>
               <div className="hidden lg:order-1 lg:block">
@@ -141,15 +141,16 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Finding My Way to Web
+                  Full-Stack Development
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Despite my love for mobile development, the web kept calling
-                  my name. With my eye for design, frontend felt like the
-                  perfect playground. I dove into HTML, CSS, and JavaScript—with
-                  React in 2016 becoming my game-changer. A few months later and
-                  I had landed my first full-time web dev role and never looked
-                  back.
+                  As the web evolved, so did my skillset. I became a full-stack
+                  developer, diving deep into both frontend and backend
+                  technologies. From building responsive interfaces to
+                  architecting scalable systems, I love the entire development
+                  lifecycle. My experience spans across various frameworks and
+                  languages, always staying curious and eager to learn new
+                  technologies.
                 </p>
               </div>
               <div className="hidden lg:block">
@@ -178,20 +179,19 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Life Beyond Code
+                  Life in Amsterdam
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When I met PeggyJean, I knew pretty quickly she was the one.
-                  After proposing, we had grand wedding plans – until COVID
-                  happened. We pivoted (developer joke!) and had a small,
-                  intimate ceremony in 2020 that turned out more perfect than we
-                  could have imagined.
+                  Amsterdam is not just where I was born—it&apos;s where I&apos;ve
+                  built my life. As a father of two amazing children and a dog,
+                  family is everything to me. Balancing work and family life in
+                  this vibrant city keeps me grounded and inspired.
                 </p>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Family has always been my center, and seeing ours grow has
-                  been life&apos;s greatest joy. Our daughter ElizaJane arrived
-                  in 2021, bringing endless wonder to our days, and little Renny
-                  joined our crew in 2023, completing our circle.
+                  My multicultural background, with roots from Suriname, has
+                  given me a unique perspective on creativity and problem-solving.
+                  It&apos;s shaped how I approach both life and development—always
+                  looking for diverse solutions and connections.
                 </p>
               </div>
               <div className="hidden lg:block">
@@ -220,20 +220,22 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  These Days
+                  Current Focus
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Currently, I&apos;m leading teams at LogicGate as a Senior
-                  Frontend Engineer where we&apos;re building some pretty
-                  awesome stuff. Speaking at tech conferences has become a
-                  regular part of my year.
+                  Currently, I&apos;m working as a Software Consultant at Salt,
+                  helping companies navigate complex technical challenges.
+                  I&apos;m particularly passionate about blockchain, Web3, and
+                  AI technologies—exploring how these emerging technologies can
+                  create decentralized applications that empower users.
                 </p>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When I&apos;m not working, you&apos;ll find me on creative
-                  coding side projects, writing for my blog, failing
-                  spectacularly at games with friends, or—best of all—hanging
-                  out with my family, usually with coffee nearby and dad jokes
-                  at the ready.
+                  When I&apos;m not consulting or coding, I&apos;m constantly
+                  learning. Right now, I&apos;m diving deeper into Angular and
+                  Python, building AI-powered projects, and contributing to the
+                  open-source community. Whether it&apos;s creating cryptocurrency
+                  trading bots or exploring new frameworks, I love pushing the
+                  boundaries of what&apos;s possible.
                 </p>
               </div>
               <div className="hidden lg:block">

@@ -28,11 +28,7 @@ const footerSections: FooterSection[] = [
     links: [
       { href: "/toolbox", label: "Toolbox" },
       { href: "/speaking", label: "Speaking" },
-      {
-        href: "https://braydoncoyer.lemonsqueezy.com/",
-        label: "Products",
-        isExternal: true,
-      },
+      { href: "/projects", label: "Projects" },
       { href: "/community-wall", label: "Community Wall" },
     ],
   },
@@ -70,16 +66,16 @@ export function Footer(): JSX.Element {
                     <img
                       className="h-10 w-10"
                       src="/bcoyerlogo_dark.svg"
-                      alt="Braydon's Logo"
+                      alt="Ryan's Logo"
                     />
                   </Link>
                   <p className="w-60 leading-5 text-gray-500">
-                    I&apos;m Braydon - a senior front-end developer, blogger and
-                    public speaker. Thanks for checking out my site!
+                    I&apos;m Ryan - a full-stack developer, creative, and software
+                    consultant. Thanks for checking out my site!
                   </p>
                 </div>
                 <p className="mt-6 text-gray-500">
-                  © {new Date().getFullYear()} Braydon Coyer
+                  © {new Date().getFullYear()} Ryan Lisse
                 </p>
               </div>
               <div className="flex w-full items-end justify-end pr-16">
